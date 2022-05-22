@@ -5,7 +5,7 @@ set -u # trigger errors for unset vars
 echo "stage docker-stats"
 OUTPUT=""
 if command -v docker &> /dev/null; then
-    OUTPUT=$(docker stats 2>&1 || true)
+    OUTPUT=$(docker stats --no-stream 2>&1 || true)
     OUTPUT=${OUTPUT:0:4096}
 else
     echo "docker could not be found"
