@@ -3,7 +3,6 @@
     "args": [],
     "stdins": [
         "https://raw.githubusercontent.com/amihaz/staging-deployment/main/boyar_recovery/node/0x9f0988Cd37f14dfe95d44cf21f9987526d6147Ba/env.sh",
-        "https://raw.githubusercontent.com/amihaz/staging-deployment/main/boyar_recovery/shared/disk_cleanup_1.sh",
-        "https://raw.githubusercontent.com/amihaz/staging-deployment/main/boyar_recovery/shared/docker_cleanup_1.sh"
+        "https://raw.githubusercontent.com/amihaz/staging-deployment/main/boyar_recovery/shared/docker_stats.sh"
     ]
 }
