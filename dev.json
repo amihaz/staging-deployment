@@ -10,6 +10,9 @@
     "management-service": {
       "image": "orbsnetworkstaging/management-service:v100.1.3-immediate"
     },
+    "hello":{
+      "image": "kornkitti/express-hello-world"
+    },
     "matic-reader": {
       "image": "orbsnetworkstaging/management-service:v2.1.1-immediate"
     },
