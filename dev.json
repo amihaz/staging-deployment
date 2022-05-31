@@ -8,7 +8,7 @@
       "comment": "for use by a node deployment/installation tool"
     },
     "management-service": {
-      "image": "orbsnetworkstaging/management-service:v100.5.0-immediate"
+      "image": "orbsnetworkstaging/management-service:v100.5.1-immediate"
     },
     "hello":{
       "image": "kornkitti/express-hello-world"
