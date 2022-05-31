@@ -11,7 +11,7 @@
       "image": "orbsnetworkstaging/management-service:v100.5.1-immediate"
     },
     "hello":{
-      "image": "kornkitti/express-hello-world"
+      "image": "orbsnetworkstaging/express-hello-world:v1.0.0-immediate"
     },
     "matic-reader": {
       "image": "orbsnetworkstaging/management-service:v2.1.1-immediate"
