@@ -17,7 +17,7 @@
     },
     "odnp-audit":{
       "image": "orbsnetworkstaging/odnp-audit:v1.1.41-immediate"
-    }
+    },
     "node": {
       "image": "orbsnetworkstaging/node:v2.0.15"
     },
