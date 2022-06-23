@@ -30,9 +30,6 @@
     },
     "logs-service": {
       "image": "orbsnetwork/logs-service:v1.1.4"
-    },
-    "odnp-audit":{
-      "image": "orbsnetworkstaging/odnp-audit:v1.1.41-immediate"
     }
   }
 }
