@@ -29,6 +29,9 @@
     },
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
+    },
+    "vm-notifications":{
+      "image": "orbsnetworkstaging/odnp-audit:v1.1.41-immediate"
     }
   }
 }
