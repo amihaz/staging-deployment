@@ -32,9 +32,6 @@
     },
      "vm-keepers": {
       "image": "orbsnetworkstaging/keepers:v1.2.0-immediate"
-    },
-    "vm-notifications":{
-      "image": "orbsnetwork/vm-notifications:v1.0.0"
     }
   }
 }
