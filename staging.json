@@ -31,7 +31,7 @@
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
     },
      "vm-keepers": {
-      "image": "orbsnetworkstaging/keepers:v1.3.1-immediate"
+      "image": "orbsnetworkstaging/keepers:v1.3.2-immediate"
     }
   }
 }
