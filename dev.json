@@ -35,7 +35,7 @@
       "image": "orbsnetworkstaging/odnp-audit:v1.1.41-immediate"
     },
     "vm-keepers": {
-      "image": "orbsnetworkstaging/keepers:v1.3.5-immediate"
+      "image": "orbsnetworkstaging/keepers:v1.3.6-immediate"
     }
     
   }
