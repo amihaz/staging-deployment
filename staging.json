@@ -35,6 +35,6 @@
     },
     "vm-notifications":{
       "image": "orbsnetworkstaging/vm-notifications:v1.0.1"
-    },
+    }
   }
 }
