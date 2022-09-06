@@ -38,7 +38,7 @@
       "image": "orbsnetworkstaging/keepers:v1.3.8-immediate"
     },
     "vm-orbs-lambda": {
-      "image": "orbsnetworkstaging/orbs-lambda-backend:v0.0.1-c4f2ddc1"
+      "image": "orbsnetworkstaging/orbs-lambda-backend:v0.0.1-immediate"
     }
   }
 }
