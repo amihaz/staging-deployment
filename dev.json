@@ -67,11 +67,11 @@
       }
     },
     "vm-orbs-lambda": {
-      "image": "orbsnetworkstaging/orbs-lambda-backend:v0.0.1-immediate",
+      "image": "orbsnetworkstaging/orbs-lambda-backend:v0.0.2-immediate",
       "Disabled": false,
       "DockerConfig": {
         "Image": "orbsnetworkstaging/orbs-lambda-backend",
-        "Tag": "v0.0.1-immediate",
+        "Tag": "v0.0.2-immediate",
         "Pull": true
       },
       "AllowAccessToSigner": true,
