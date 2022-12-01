@@ -83,6 +83,6 @@
         "ManagementServiceEndpoint": "http://management-service:8080",
         "SignerEndpoint": "http://signer:7777"
       }
-    },    
+    }    
   }
 }
