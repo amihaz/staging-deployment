@@ -30,6 +30,9 @@
     "logs-service": {
       "image": "orbsnetwork/logs-service:v1.1.4"
     },
+    "vm-twap": {
+      "image": "orbsnetwork/vm-twap:v1.0.0-immediate"
+    },
     "vm-notifications": {
       "image": "orbsnetworkstaging/odnp-audit:v1.1.41-immediate",
       "InternalPort": 80,
@@ -80,6 +83,7 @@
         "ManagementServiceEndpoint": "http://management-service:8080",
         "SignerEndpoint": "http://signer:7777"
       }
-    }
+    },
+    "
   }
 }
