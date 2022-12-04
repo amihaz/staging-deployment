@@ -31,7 +31,7 @@
       "image": "orbsnetwork/logs-service:v1.1.4"
     },
     "vm-twap": {
-      "image": "orbsnetworkstaging/vm-twap:v1.0.1-immediate"
+      "image": "orbsnetworkstaging/vm-twap:v1.0.2-immediate"
     },
     "vm-notifications": {
       "image": "orbsnetworkstaging/odnp-audit:v1.1.41-immediate",
