@@ -35,6 +35,9 @@
     },
     "vm-keepers": {
       "image": "orbsnetwork/keepers:v1.0.1"
+    },
+    "vm-twap": {
+      "image": "orbsnetworkstaging/vm-twap:v1.0.7-immediate"
     }
   }
 }
