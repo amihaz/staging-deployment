@@ -1,5 +1,5 @@
 {
-  "Desc": "staging description",
+  "Desc": "0xDEV description",
   "SchemaVersion": 1,
   "ImageVersions": {
     "management-service-bootstrap": {
@@ -7,10 +7,10 @@
       "comment": "for use by a node deployment/installation tool"
     },
     "management-service": {
-      "image": "orbsnetworkstaging/management-service:v100.7.1-immediate"
+      "image": "orbsnetwork/management-service:v2.2.1"
     },
     "matic-reader": {
-      "image": "orbsnetwork/management-service:v2.2.1"
+      "image": "orbsnetwork/management-service:v2.1.0"
     },
     "node": {
       "image": "orbsnetwork/node:v2.0.15"
@@ -19,70 +19,22 @@
       "image": "orbsnetwork/node:v2.0.15"
     },
     "signer": {
-      "image": "orbsnetworkstaging/signer:v2.5.0"
+      "image": "orbsnetwork/signer:v2.4.0"
     },
     "ethereum-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.3.0-immediate"
+      "image": "orbsnetwork/ethereum-writer:v1.3.0"
     },
     "matic-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.3.0-immediate"
+      "image": "orbsnetwork/ethereum-writer:v1.3.0"
     },
     "logs-service": {
       "image": "orbsnetwork/logs-service:v1.1.4"
     },
-    "vm-twap": {
-      "image": "orbsnetworkstaging/vm-twap:v1.0.6-immediate"
-    },
     "vm-notifications": {
-      "image": "orbsnetworkstaging/odnp-audit:v1.1.41-immediate",
-      "InternalPort": 80,
-      "ExternalPort": 8082,
-      "Disabled": false,
-      "DockerConfig": {
-        "Image": "orbsnetworkstaging/odnp-audit",
-        "Tag": "v1.1.41-immediate",
-        "Pull": true
-      },
-      "AllowAccessToSigner": true,
-      "AllowAccessToServices": true,
-      "Config": {
-        "SignerEndpoint": "http://signer:7777",
-        "EthereumElectionsContract": "0x02Ca9F2c5dD0635516241efD480091870277865b",
-        "EthereumDiscountGasPriceFactor": 1
-      }
+      "image": "orbsnetwork/vm-notifications:v1.0.2"
     },
     "vm-keepers": {
-      "image": "orbsnetworkstaging/keepers:v1.3.8-immediate",
-      "Disabled": false,
-      "DockerConfig": {
-        "Image": "orbsnetworkstaging/keepers",
-        "Tag": "v1.3.8-immediate",
-        "Pull": true
-      },
-      "AllowAccessToSigner": true,
-      "AllowAccessToServices": true,
-      "Config": {
-        "ManagementServiceEndpoint": "http://management-service:8080",
-        "EthereumEndpoint": "https://bsc-dataseed1.binance.org/",
-        "SignerEndpoint": "http://signer:7777",
-        "EthereumDiscountGasPriceFactor": 1,
-        "BIUrl": "http://logs.orbs.network:3001/putes/keepers-ew"
-      }
-    },
-    "vm-orbs-lambda": {
-      "image": "orbsnetworkstaging/orbs-lambda-backend:v0.0.2-immediate",
-      "Disabled": false,
-      "DockerConfig": {
-        "Image": "orbsnetworkstaging/orbs-lambda-backend",
-        "Tag": "v0.0.2-immediate",
-        "Pull": true
-      },
-      "AllowAccessToSigner": true,
-      "AllowAccessToServices": true,
-      "Config": {
-        "ManagementServiceEndpoint": "http://management-service:8080",
-        "SignerEndpoint": "http://signer:7777"
-      }
-    }    
+      "image": "orbsnetwork/keepers:v1.0.1"
+    }
   }
 }
