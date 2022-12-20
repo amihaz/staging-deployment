@@ -22,7 +22,7 @@
       "image": "orbsnetworkstaging/signer:v100.0.2-immediate"
     },
     "ethereum-writer": {
-      "image": "orbsnetwork/ethereum-writer:v1.3.0"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.4.4-immediate"
     },
     "matic-writer": {
       "image": "orbsnetwork/ethereum-writer:v1.3.0"
