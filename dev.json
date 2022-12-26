@@ -12,12 +12,6 @@
     "matic-reader": {
       "image": "orbsnetwork/management-service:v2.1.0"
     },
-    "node": {
-      "image": "orbsnetwork/node:v2.0.15"
-    },
-    "node-canary": {
-      "image": "orbsnetwork/node:v2.0.15"
-    },
     "signer": {
       "image": "orbsnetworkstaging/signer:v100.0.2-immediate"
     },
@@ -37,7 +31,7 @@
       "image": "orbsnetwork/keepers:v1.0.1"
     },
     "vm-twap": {
-      "image": "orbsnetworkstaging/vm-twap:v1.0.7-immediate"
+      "image": "orbsnetworkstaging/vm-twap:v1.0.18-immediate"
     }
   }
 }
