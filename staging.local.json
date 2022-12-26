@@ -1,5 +1,5 @@
 {
-  "Desc": "staging description",
+  "Desc": "release-to-staging deployment",
   "SchemaVersion": 1,
   "ImageVersions": {
     "management-service-bootstrap": {
@@ -7,10 +7,16 @@
       "comment": "for use by a node deployment/installation tool"
     },
     "management-service": {
-      "image": "orbsnetworkstaging/management-service:v100.7.3-immediate"
+      "image": "orbsnetworkstaging/management-service:v100.7.4-immediate"
     },
     "matic-reader": {
       "image": "orbsnetwork/management-service:v2.1.0"
+    },
+    "node": {
+      "image": "orbsnetworkstaging/node:v2.0.15"
+    },
+    "node-canary": {
+      "image": "orbsnetworkstaging/node:v2.0.15"
     },
     "signer": {
       "image": "orbsnetworkstaging/signer:v100.0.2-immediate"
@@ -24,14 +30,14 @@
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
     },
-     "vm-keepers": {
+    "vm-keepers": {
       "image": "orbsnetworkstaging/keepers:v1.4.2-immediate"
     },
     "vm-notifications":{
       "image": "orbsnetworkstaging/vm-notifications:v1.0.3-immediate"
     },
     "vm-twap": {
-      "image": "orbsnetworkstaging/vm-twap:v1.0.15-immediate"
+      "image": "orbsnetworkstaging/vm-twap:v1.0.18-immediate"
     }
   }
 }
