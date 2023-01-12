@@ -10,7 +10,7 @@
       "image": "orbsnetworkstaging/management-service:v100.10.0"
     },
     "matic-reader": {
-      "image": "orbsnetwork/management-service:v2.1.0"
+      "image": "orbsnetworkstaging/management-service:v100.10.0"
     },
     "node": {
       "image": "orbsnetworkstaging/node:v2.0.15"
@@ -25,7 +25,7 @@
       "image": "orbsnetworkstaging/ethereum-writer:v1.6.1"
     },
     "matic-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.4.6-immediate"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.6.1"
     },
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
