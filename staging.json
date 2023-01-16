@@ -25,7 +25,7 @@
       "image": "orbsnetworkstaging/ethereum-writer:v1.4.6-immediate"
     },
     "matic-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.4.7-immediate"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.4.8-immediate"
     },
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
