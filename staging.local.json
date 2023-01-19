@@ -30,8 +30,17 @@
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
     },
+     "vm-keepers": {
+      "image": "orbsnetworkstaging/keepers:v1.4.2-immediate"
+    },
     "vm-notifications":{
       "image": "orbsnetworkstaging/vm-notifications:v1.0.3-immediate"
+    },
+    "vm-twap": {
+      "image": "orbsnetworkstaging/vm-twap:v1.0.21-immediate"
+    },
+    "vm-lambda": {
+      "image": "orbsnetworkstaging/vm-lambda:v0.0.13-immediate"
     }
   }
 }
