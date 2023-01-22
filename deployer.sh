@@ -22,13 +22,13 @@ version="$5"
 
 # Optional argument
 gradual=''
-immediate=''
+immediate='-immediate'
 
 if [ $# -gt 5 ]; then
     gradual=$6
 
-    if [ "$gradual" != "true" ]; then
-       immediate='-immediate'
+    if [ "$gradual" == "true" ]; then
+       immediate=''
     fi
 
 fi
