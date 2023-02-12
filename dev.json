@@ -38,9 +38,6 @@
     },
     "vm-twap": {
       "image": "orbsnetworkstaging/vm-twap:v1.0.29-immediate"
-    },
-    "vm-lambda": {
-      "image": "orbsnetworkstaging/vm-lambda:v0.0.17-immediate"
     }
   }
 }
