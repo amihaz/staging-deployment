@@ -37,7 +37,7 @@
       "image": "orbsnetworkstaging/vm-notifications:v1.0.3-immediate"
     },
     "vm-twap": {
-      "image": "orbsnetworkstaging/vm-twap:v1.0.29-immediate"
+      "image": "orbsnetworkstaging/vm-twap:v1.0.30-immediate"
     },
     "vm-lambda": {
       "image": "orbsnetworkstaging/vm-lambda:v0.0.16-immediate"
