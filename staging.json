@@ -7,10 +7,10 @@
       "comment": "for use by a node deployment/installation tool"
     },
     "management-service": {
-      "image": "orbsnetworkstaging/management-service:v100.7.7-immediate"
+      "image": "orbsnetworkstaging/management-service:v2.3.0"
     },
     "matic-reader": {
-      "image": "orbsnetworkstaging/management-service:v2.5.0-immediate"
+      "image": "orbsnetworkstaging/management-service:v2.1.0"
     },
     "node": {
       "image": "orbsnetworkstaging/node:v2.0.15"
@@ -19,28 +19,25 @@
       "image": "orbsnetworkstaging/node:v2.0.15"
     },
     "signer": {
-      "image": "orbsnetworkstaging/signer:v100.0.2-immediate"
+      "image": "orbsnetworkstaging/signer:v2.5.0"
     },
     "ethereum-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.5.20-immediate"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.3.0"
     },
     "matic-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.5.20-immediate"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.4.0"
     },
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
     },
-     "vm-keepers": {
-      "image": "orbsnetworkstaging/keepers:v1.4.2-immediate"
+    "vm-notifications": {
+      "image": "orbsnetworkstaging/vm-notifications:v1.0.2"
     },
-    "vm-notifications":{
-      "image": "orbsnetworkstaging/vm-notifications:v1.0.3-immediate"
+     "vm-keepers": {
+      "image": "orbsnetworkstaging/keepers:v1.0.1"
     },
     "vm-twap": {
-      "image": "orbsnetworkstaging/vm-twap:v1.0.45-immediate"
-    },
-    "vm-lambda": {
-      "image": "orbsnetworkstaging/vm-lambda:v0.0.19-immediate"
+      "image": "orbsnetworkstaging/vm-twap:v1.0.24"
     }
   }
 }
