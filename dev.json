@@ -7,7 +7,7 @@
       "comment": "for use by a node deployment/installation tool"
     },
     "management-service": {
-      "image": "orbsnetworkstaging/management-service:v100.7.4-immediate"
+      "image": "orbsnetworkstaging/management-service:v101.0.0-immediate"
     },
     "matic-reader": {
       "image": "orbsnetwork/management-service:v2.1.0"
