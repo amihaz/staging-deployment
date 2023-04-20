@@ -7,10 +7,10 @@
       "comment": "for use by a node deployment/installation tool"
     },
     "management-service": {
-      "image": "orbsnetworkstaging/management-service:v2.5.2-immediate"
+      "image": "orbsnetworkstaging/management-service:v2.5.3-immediate"
     },
     "matic-reader": {
-      "image": "orbsnetworkstaging/management-service:v2.5.2-immediate"
+      "image": "orbsnetworkstaging/management-service:v2.5.3-immediate"
     },
     "node": {
       "image": "orbsnetworkstaging/node:v2.0.15"
@@ -40,7 +40,7 @@
       "image": "orbsnetworkstaging/vm-twap:v1.2.12-immediate"
     },
     "vm-lambda": {
-      "image": "orbsnetworkstaging/vm-lambda:v0.0.31-immediate"
+      "image": "orbsnetworkstaging/vm-lambda:v0.0.32-immediate"
     }
   }
 }
