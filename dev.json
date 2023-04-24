@@ -10,7 +10,7 @@
       "image": "orbsnetworkstaging/management-service:v102.0.0-immediate"
     },
     "matic-reader": {
-      "image": "orbsnetwork/management-service:v2.1.0"
+      "image": "orbsnetwork/management-service:v2.5.7-immediate"
     },
     "node": {
       "image": "orbsnetworkstaging/node:v2.0.15"
