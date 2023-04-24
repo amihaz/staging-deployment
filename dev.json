@@ -7,10 +7,10 @@
       "comment": "for use by a node deployment/installation tool"
     },
     "management-service": {
-      "image": "orbsnetworkstaging/management-service:v102.0.0-immediate"
+      "image": "orbsnetworkstaging/management-service:v2.5.7-immediate"
     },
     "matic-reader": {
-      "image": "orbsnetwork/management-service:v2.5.7-immediate"
+      "image": "orbsnetworkstaging/management-service:v2.5.7-immediate"
     },
     "node": {
       "image": "orbsnetworkstaging/node:v2.0.15"
@@ -25,7 +25,7 @@
       "image": "orbsnetworkstaging/ethereum-writer:v1.6.2-immediate"
     },
     "matic-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.5.8-immediate"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.6.2-immediate"
     },
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
@@ -38,9 +38,6 @@
     },
     "vm-twap": {
       "image": "orbsnetworkstaging/vm-twap:v1.0.32-immediate"
-    },
-    "vm-lambda": {
-      "image": "orbsnetworkstaging/vm-lambda:v0.0.99-immediate"
     }
   }
 }
