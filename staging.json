@@ -19,7 +19,7 @@
       "image": "orbsnetworkstaging/node:v2.0.15"
     },
     "signer": {
-      "image": "orbsnetworkstaging/signer:v2.5.0"
+      "image": "orbsnetworkstaging/signer:v2.6.0-immediate"
     },
     "ethereum-writer": {
       "image": "orbsnetworkstaging/ethereum-writer:v1.6.5-immediate"
