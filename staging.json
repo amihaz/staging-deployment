@@ -1,5 +1,5 @@
 {
-  "Desc": "staging description",
+  "Desc": "staging description.",
   "SchemaVersion": 1,
   "ImageVersions": {
     "management-service-bootstrap": {
