@@ -22,10 +22,10 @@
       "image": "orbsnetworkstaging/signer:v2.6.0-immediate"
     },
     "ethereum-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.7.8-immediate"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.8.0-immediate"
     },
     "matic-writer": {
-      "image": "orbsnetworkstaging/ethereum-writer:v1.7.8-immediate"
+      "image": "orbsnetworkstaging/ethereum-writer:v1.8.0-immediate"
     },
     "logs-service": {
       "image": "orbsnetworkstaging/logs-service:v1.1.4"
